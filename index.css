@@ -1,12 +1,7 @@
 body,
 html {
   cursor: url(https://www.picgifs.com/graphics/q/question-marks/graphics-question-marks-331528.gif), crosshair;
-.tiledBackground {
-  background-image: url('http://www.gaasch.net/format/format.gif');
-  background-size: 300px;
-  width: 3500px;
-  height: 3000px;
-  border: 1px solid;
-  color: white;
-}
+background-image:url('http://www.gaasch.net/format/format.gif');
+background-position: center;
+background-size: cover;
 }
