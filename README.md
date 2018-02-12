@@ -1,5 +1,4 @@
 # Chromebook_Crasher
-A troll website for fun fun fun fun fun fun fun fun fun!!!!!!!!!!   (doesn't do physical or permanent damage to target computer)
+A troll website for some fun. (doesn't do physical or permanent damage to target computer)
 
-
-YO YO YO HOMIES!!! my names D-Swizzle and im a SAVAGEEEE!!! not gonna lie thooooo im a real OG
+As far as I'm concerned this website does not crash computer that arn't running ChromeOS (Chromebooks). However, I am positive this website crashes Chromebooks because although I'm writing it on a mac I test it on my school computers (chromebooks). It may work with other thin clients.
