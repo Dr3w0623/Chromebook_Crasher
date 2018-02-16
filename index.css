@@ -1,4 +1,33 @@
 * {
-  cursor: url('https://www.picgifs.com/graphics/q/question-marks/graphics-question-marks-331528.gif'), crosshair;
+  #yotebox{
+  width: 100%;
+  height: 100px;
+  border: 1px solid white;
+  animation: animate 0.25s infinite;
+}
+
+
+
+@keyframes animate{
+  0%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_1.png"), auto;
+  }
+  20%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_2.png"), auto;
+  }
+  40%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_3.png"), auto;
+  }
+  60%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_4.png"), auto;
+  }
+  80%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_5.png"), auto;
+  }
+  100%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_1.png"), auto;
+  }
+}
+
     background-image: url('doggy.gif');
 }
