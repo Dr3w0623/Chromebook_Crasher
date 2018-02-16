@@ -10,22 +10,22 @@
 
 @keyframes animate{
   0%{ 
-    cursor: url("http://jantimon.nl/running_man/running_man_1.png"), auto;
+    cursor: url('frame_00_delay-0.05s.gif'), auto;
   }
   20%{ 
-    cursor: url("http://jantimon.nl/running_man/running_man_2.png"), auto;
+    cursor: url('frame_02_delay-0.05s.gif'), auto;
   }
   40%{ 
-    cursor: url("http://jantimon.nl/running_man/running_man_3.png"), auto;
+    cursor: url('frame_03_delay-0.05s.gif'), auto;
   }
   60%{ 
-    cursor: url("http://jantimon.nl/running_man/running_man_4.png"), auto;
+    cursor: url('frame_04_delay-0.05s.gif'), auto;
   }
   80%{ 
-    cursor: url("http://jantimon.nl/running_man/running_man_5.png"), auto;
+    cursor: url('frame_05_delay-0.05s.gif'), auto;
   }
   100%{ 
-    cursor: url("http://jantimon.nl/running_man/running_man_1.png"), auto;
+    cursor: url('frame_06_delay-0.05s.gif'), auto;
   }
 }
 
