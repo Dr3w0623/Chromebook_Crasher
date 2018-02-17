@@ -1,7 +1,6 @@
 var doggo = document.querySelector("#doggo");
 
-var cursorArray = ['url("http://jantimon.nl/running_man/running_man_1.cur"), auto',
-  'url("frame_00_delay-0.05s.gif"), auto',
+var cursorArray = ['url("frame_00_delay-0.05s.gif"), auto',
   'url("frame_01_delay-0.05s.gif"), auto',
   'url("frame_02_delay-0.05s.gif"), auto',
   'url("frame_03_delay-0.05s.gif"), auto',
