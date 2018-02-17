@@ -1,4 +1,8 @@
  * {
-cursor: url('https://www.picgifs.com/graphics/q/question-marks/graphics-question-marks-331528.gif'), crosshair;
-     background-image: url('doggy.gif');
- }	 
+   background-image: url('doggy.gif');
+ }
+ 
+ #doggo {
+   width: 3000px;
+   height: 3000px;
+ }
